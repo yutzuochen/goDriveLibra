@@ -1,0 +1,46 @@
+//package main
+
+// type IClient interface {
+// 	Url()
+// 	Abc()
+// 	Idx() int
+// }
+
+// type client struct {
+// 	idx int
+// }
+
+// func New() IClient {
+// 	return &client{}
+// }
+
+// func Url() {
+
+// }
+
+// func (hdr *client) Abc() {
+
+// }
+
+// func (hdr *client) Idx() int {
+// 	return hdr.idx
+// }
+// func (hdr *client) Url() {
+
+// }
+
+//func main() {
+// cli := New()
+// cli.Abc()
+// db := mysql.New()
+// err := db.Connect("10.200.6.37:3306")
+// if err != nil {
+// 	panic(err)
+// }
+// authHdr := auth.New(db)
+// token, err := authHdr.Login("user", "pwd")
+// if err != nil {
+// 	panic(err)
+// }
+// fmt.Println("token:", token)
+//}
